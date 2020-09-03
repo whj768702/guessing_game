@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -12,7 +30,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11d42ba7-1cd1-47e8-9f5d-4c0f76dd9828" name="Default Changelist" comment="完善猜数程序。" />
+    <list default="true" id="11d42ba7-1cd1-47e8-9f5d-4c0f76dd9828" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +74,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -67,7 +93,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598489437881</updated>
       <workItem from="1598489440766" duration="979000" />
-      <workItem from="1598573992132" duration="1625000" />
+      <workItem from="1598573992132" duration="1702000" />
+      <workItem from="1599007878121" duration="62000" />
+      <workItem from="1599093489092" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="完善猜数程序。">
       <created>1598575687748</created>
@@ -76,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598575687748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善猜数程序。">
+      <created>1598575705964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598575705964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,32 +127,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完善猜数程序。" />
     <option name="LAST_COMMIT_MESSAGE" value="完善猜数程序。" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="618" y="334" key="#Vim_Emulation" timestamp="1599093608451">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="618" y="334" key="#Vim_Emulation/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1599093608451" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598489987126">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1598489987126" />
-    <state width="1380" height="216" key="GridCell.Tab.0.bottom" timestamp="1598575505365">
+    <state x="288" y="35" key="CommitChangelistDialog2" timestamp="1598575705808">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1380" height="216" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1598575505365" />
-    <state width="1380" height="216" key="GridCell.Tab.0.center" timestamp="1598575505363">
+    <state x="288" y="35" key="CommitChangelistDialog2/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1598575705808" />
+    <state width="1380" height="216" key="GridCell.Tab.0.bottom" timestamp="1599093941494">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1380" height="216" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1598575505363" />
-    <state width="1380" height="216" key="GridCell.Tab.0.left" timestamp="1598575505363">
+    <state width="1380" height="216" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1599093941494" />
+    <state width="1380" height="216" key="GridCell.Tab.0.center" timestamp="1599093941493">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1380" height="216" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1598575505363" />
-    <state width="1380" height="216" key="GridCell.Tab.0.right" timestamp="1598575505364">
+    <state width="1380" height="216" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1599093941493" />
+    <state width="1380" height="216" key="GridCell.Tab.0.left" timestamp="1599093941493">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1380" height="216" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1598575505364" />
+    <state width="1380" height="216" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1599093941493" />
+    <state width="1380" height="216" key="GridCell.Tab.0.right" timestamp="1599093941494">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1380" height="216" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1599093941494" />
+    <state x="311" y="201" key="Vcs.Push.Dialog.v2" timestamp="1599094141985">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="311" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.-157.1920.1057@0.23.1440.877" timestamp="1599094141985" />
     <state x="385" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1598490694689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

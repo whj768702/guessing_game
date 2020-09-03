@@ -2,9 +2,13 @@ use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
 
+fn generate_random(start: u32, end: u32) -> u32 {
+    return rand::thread_rng().gen_range(start, end);
+}
+
 fn main() {
     println!("Guess the number!");
-    let secret_number = rand::thread_rng().gen_range(1, 101);
+    let secret_number = generate_random(1, 101);
     // println!("The secret number is: {}", secret_number);
 
     loop {
